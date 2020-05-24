@@ -1,0 +1,51 @@
+<html>
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=25198001-3597-44cb-b411-87ac2c933ab6" type="text/javascript"></script>
+        </script>
+    </head>
+    <body>
+        <div id="map"></div>
+        
+        <!--MODAL HTML--> 
+        
+        <div class='modal'>
+                <div class="modal-header">
+                    <img src= img/test-marker.png id='pointerimg'>
+                    <div class="coords">Here will be coords</div>
+                    <span class="close-button">&times;</span>
+                </div>
+    
+                <div class="modal-body">
+                    <div class="reviews">
+
+                        <div class="review"></div>
+                    </div>
+                    <div class="form">
+                        <div class="form-header"> <p class = 'header-text'>
+                            ВАШ ОТЗЫВ
+                        </p> </div>
+                        <input type='text' placeholder="Ваше имя" class="form-input" id="name" required>
+                        <input type='text' placeholder="Укажите место" class="form-input" id="place" required>
+                        <input type='text' placeholder="Поделитесь впечатлениями" class="form-input" id="review" required>
+                        <button class="submit-button">Добавить</button>
+                    </div>
+                    </div>
+                </div>
+
+         <!--MODAL HTML END--> 
+
+        <script src="main.js" type='text/javascript'></script>
+    </body>
+</html>

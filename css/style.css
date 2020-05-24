@@ -1,0 +1,162 @@
+*{
+    font-family: Helvetica
+}
+
+#map {
+    width: 100%; 
+    height: 100%
+}
+
+.modal{
+    display: none;
+    position: absolute;
+    background-color: white;
+    height: 350px;
+    width: 200px;
+    border-radius: 8px;
+    position: fixed; 
+    z-index: 100000;
+}
+.modal-header {
+    display: flex;
+    height: 25px;
+    width: auto;
+    background-color: #fe8663;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.modal-header img {
+    height: 20px;
+    float: left;
+    margin-top: 4px;
+}
+
+.modal-header .coords {
+    padding-top: 8px;
+    font-size: 9;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    width: 160px;
+}
+
+.modal-header .close-button {
+    display: inline;
+    float: right;
+    text-align: center;
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.review-placeholder {
+    vertical-align: top;
+    font-size: 12;
+}
+
+.reviews {
+    width:auto;
+    padding-left: 3px;
+    padding-right: 12px;
+    padding-top: 10px;;
+    height: 100px;
+    background-color: white;
+    overflow:scroll
+}
+
+.form {
+    width: auto;
+    background-color: white;
+}
+
+.form-header {
+    color: #fe8663;
+    font-weight: bold;
+    height: 20px;
+    background-color: white;
+    margin-left: 3px;
+}
+
+.header-text {
+    display: flex;
+}
+
+.form-input {
+    width: 97%;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 3px;
+    box-sizing: border-box;
+}
+
+#review {
+    height: 70px;
+}
+
+.submit-button {
+    float: right;
+    margin-top: 6px;
+    margin-right: 3px;
+    background-color: #fe8663;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.review {
+    font-size: 12;
+    margin-bottom: 8px;
+    overflow : scroll;
+}
+
+.review-sign {
+    display: block;
+    width:auto;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.name-info {
+    font-weight: bold;
+
+}
+
+.review-text {
+    margin-top: 4px;
+
+}
+
+.date-info {
+    float:right;
+    color: rgb(103, 102, 102)
+}
+
+.place-info {
+    color: rgb(103, 102, 102)
+}
+
+.ballon_header { 
+    font-size: 14px; 
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    color: #383a3c; 
+}
+
+.ballon_address {
+    font-size: 11px;
+    margin-bottom: 10px; 
+}
+
+.ballon_body { 
+    font-size: 14px; 
+    text-align: center;  
+}
+.ballon_footer { 
+    vertical-align: bottom;
+    font-size: 12px; 
+    text-align: right; 
+    color: #7D7D7D; 
+    margin-top: 10px; 
+}
